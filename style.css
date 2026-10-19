@@ -131,3 +131,31 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+main > article img {
+  float: none;
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  margin: 10p auto 24px;
+}
+
+main > section,
+main > article {
+  margin-bottom: 24px;
+}
+
+main p {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 24px 16px;
+  }
+
+  nav {
+    padding: 0 8px;
+  }
+}
